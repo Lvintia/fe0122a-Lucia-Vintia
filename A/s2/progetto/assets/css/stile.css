@@ -1,0 +1,436 @@
+
+/* IMPOSTAZIONI GENERALI */
+html            {font-size: 62,5%;
+   
+}
+body {   
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+   
+}
+* {box-sizing: border-box;}
+div, section, nav, header{
+    overflow-wrap: break-word;
+}
+h1,h2,h3{
+    color: black;
+}
+h1{
+    font-size: 180%;
+}
+p{
+  color: #393d41 ;
+  font-size: 15px;   
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+i{
+    color: red;
+    font-size: 30px;
+}
+.menu{
+    visibility: hidden;
+}
+/* HEADER */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    box-shadow: rgb(255, 255, 255); 
+}
+div.logo{
+    padding: 10px;
+}
+.logo img{
+    width:5em;
+    padding: 2px;
+    height: auto;
+    margin-left: 10vw;
+}
+
+header nav{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+   
+} 
+
+.bar{
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+header .bottone{
+    margin-left: 30px;
+    padding: 10px;
+}
+.bottone{
+    color: white;
+    background-color: turquoise;
+    text-decoration: none;
+    background-image: linear-gradient(to  right, rgb(71, 175, 207), rgb(64, 65, 167));
+    padding: 10px;
+}
+
+
+
+/* BODY INDEX */
+
+/*      section uno ..........index........     */
+article{
+    padding:15px;
+}
+
+main section h1{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+}
+.sfumato{
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+
+.caffe-1 {
+    background-color: black;
+    color: white; 
+    background-image: url(../images/banner.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat ;
+
+    padding: 5% 20% 5% 20% ;
+}
+
+/*     article  ............index.............      */
+article{
+    text-align: center;
+
+}
+article div{
+    width: 500px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.justy{
+    width: auto;
+    text-align: justify;
+}
+.treperchè-1 div{
+    padding: 30px;
+}
+
+/*     coso blu  ........index...........      */
+.bluscuro{
+    background-color: rgb(17, 11, 66);
+    color: white; 
+    padding: 5% 20% 5% 20% ; 
+    text-align: center; 
+}
+.bluscuro h2 {
+    color: white;
+}
+.bianco{
+    color: white;
+}
+/*     faccine   ..........index..........     */
+
+.chi img{
+    width: 500px;
+}
+.chi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.faccine{
+    padding:30px;
+}
+/*     footer   */
+footer{
+    margin-top: 40px;
+    background: rgb(199, 199, 199);
+}
+footer section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+footer div{
+    text-align: center;
+    padding: 20px;
+    width: 380px;
+}
+
+label{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+    padding: 15px;
+}
+#email{
+    height: 50px;
+}
+.bottonee{
+    color: white;
+    background-color: turquoise;
+    text-decoration: none;
+    background-image: linear-gradient(to  right, rgb(71, 175, 207), rgb(64, 65, 167));
+    padding: 10px;
+}
+
+/* __________-------------________________-----------------_____________----------------_____-   */
+
+div.foto{
+    text-align: center;
+    background-color: white;
+    margin: 25px;  
+    
+    font-family: 'Open Sans', sans-serif; 
+    display: inline-block;
+
+}
+
+  div.box {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+   text-align: center;
+  }
+  .primi{
+      text-align: center;
+      color: white;
+      background-color: rgb(21, 80, 190);
+  }
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+
+  .fotografie{
+      display: flex;
+      flex-direction: row;
+  }
+
+#chisiamo{
+    text-align: center;
+    padding: 40px;
+}
+
+
+.forme{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+
+
+}
+.contatti{
+    text-align: center;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+}
+.forme{
+    height: 100px;
+}
+
+
+/* °°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°SMARTPHONE°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°° */
+@media screen and (max-width: 542px) {
+ 
+    body {
+        line-height: 1.8;
+    }
+    h2{
+        font-size: 100%;
+    }
+    img{
+        width:40%;
+        height: auto;
+    }
+/*••••••••••••••••••••••••••••••••••••••••••*/   
+   
+    header nav{
+        display: none;
+        margin-right: 0;
+    } 
+    .menu{
+        visibility: visible;
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+/*               HTML                */
+    .caffe-1 {
+        background-position: center;
+        background-size: cover;
+        padding:76px 36px 76px 36px ;
+    }
+    article{
+        padding: 76px 36px 76px 36px;
+    }
+    article div{
+        width: auto;
+    }
+    .chi{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       }
+    .chi img{
+        width:40%;
+        height: auto;
+    }  
+    footer{
+        font-size: 60%;
+        padding:20px;
+    }
+    footer section{
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    footer div{
+        text-align: center;
+        padding: 20px;
+        width: 250px;
+    }
+    table{
+        font-size: 1rem;
+    }  
+   .fotografie{
+       display: flex;
+       flex-direction: column;
+   }    
+
+
+
+
+   input[type=text], select, textarea{
+width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+ .bordi {
+    padding: 300px;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px;
+}
+.forme{
+    margin-left: auto ;
+    margin-right: auto;
+
+}
+
+.contacts{
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+}
+ /*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°TABLET°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+
+@media screen and (min-width: 542px ) and (max-width: 1200px) {
+    html   {font-size: 80%}
+    body   {line-height: 2;}
+    div    {padding: 30px;}
+    
+/*§§§§§§*/
+    header nav {
+        font-size: small;
+        margin-right: 15px;
+    }
+
+    header .bottone{ 
+        margin-left:10px;
+    }
+
+/*§§§§§§*/
+    .perchè-1{
+        padding: 30px;
+    }
+
+    .treperchè-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;     
+    }
+ 
+
+
+}
+ /*-°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°DESKTOP°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
+
+@media screen and (min-width:1200px) {
+    html {
+        font-size: 100%;
+    }
+
+    body {
+        line-height: 2.4;
+    }
+    .treperchè-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;     
+    }
+    article{
+        padding-left: 140px;
+        padding-right: 149px;
+    }
+
+}
+
+.bottone{
+    text-align: center;
+}
+
+
+

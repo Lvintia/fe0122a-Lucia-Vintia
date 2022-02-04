@@ -8,31 +8,7 @@ body {
     background-image: url('../img/sfondo.png');
     background-position: center center;
 }
-    @media screen and (min-width:500px) {
-        html {
-            font-size: 70%;
-        }
-        body {
-            line-height: 1.8;
-        }
-    }
-
-    @media screen and (min-width:700px) {
-        html {
-            font-size: 80%;
-        }
-        body {
-            line-height: 2;
-        }
-    }
-    @media screen and (min-width:1200px) {
-        html {
-            font-size: 100%;
-        }
-        body {
-            line-height: 2.4;
-        }
-    }
+   
 
 * {box-sizing: border-box;}
 hr {display: none;} /* rimuove l'elemento */
@@ -75,17 +51,7 @@ header {
     top: 0;
     z-index: 10;
 }
-@media screen and (min-width:800px) {
-    header {
-        padding: 1.3em;
-    }
-}
 
-@media screen and (min-width:800px) {
-        header {
-            padding: 1em;
-        }
-    }
 header div img {
     margin-bottom: 20px;
 }
@@ -112,12 +78,7 @@ header nav li a::before {
 }
 
 
-@media screen and (min-width:500px) {
-    header div{
-        display: flex;
-        justify-content:space-around;
-    }    
-}
+
 /*------------------------------------------------- MAIN ----------------------------*/
 main {
     background-color: #fff;
@@ -125,11 +86,6 @@ main {
     padding: 2em 1em;
     margin-bottom:1.5em ;
 }
-    @media screen and (min-width:700px) {
-        main {
-            padding: 2em;
-        }
-    }
 
 section { 
     background-color: #e3e3e3;
@@ -207,16 +163,6 @@ iframe {
 table {
     margin-bottom: 2em;
 }
-    @media screen and (min-width:500px) {
-        table {
-            margin: 0 auto 2em;
-        }
-    }
-    @media screen and (min-width:700px) {
-        table {
-            width: 70%;
-        }
-    }
 
 caption {
     font-weight: bold;
@@ -256,20 +202,6 @@ button {
     color: white;
     font-weight: bold;
 }
-    @media screen and (min-width:500px) {
-        input {
-            display: inline-block;
-            width: 70%;
-        }
-    }
-    @media screen and (min-width:700px) {
-        input {
-            padding: 15px;
-        }
-        button {
-            padding: 15px 30px;
-        }
-    }
 
 /* ELEMENTI NELL' --------------------------------------------ASIDE -----------------*/
 aside h2 {
@@ -291,38 +223,6 @@ aside div p:last-child {
     font-size: 0.8em;
     text-align: right;
 }
-@media screen and (min-width:500px) and (max-width:800px) {
-    .correlaty {
-         display: flex;
-         flex-direction: row;
-         justify-content: space-around;
-         background-color: none;
-    }
-    .correlaty div {
-        margin: 0% 1% 0%;
-       
-    }
-       
-}
-
-@media screen and (min-width:800px) {
-    main{
-       display: flex;
-    }
-    article{
-      margin-right: 5%;
-    }
-    aside{
-        padding: 0%;
-        
-        flex-direction: column;
-    }
-    .correlaty div {
-        width: 278px;
-        font-size: 98%;
-
-    }
-} 
 
 
 
@@ -336,41 +236,9 @@ footer {
     text-align: center;
     font-size: 1.2rem;
 }
-    @media screen and (min-width:800px) {
-        footer {
-            padding: 1em 12em;
-        }
-    }
-
+  
 footer a {
     color: fuchsia;
 }
 
-
-@media screen and (min-width:1200px) {
-    header, main, footer {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
-
-@media print {
-    body {
-        font-size: 24px;
-        padding: 0;
-        background-image: none;
-    
-    }
-    main {
-        box-shadow: none;
-        margin: 0;
-    }
-    th {
-        background-color: #d3d3d3;
-    }
-    header, article section, aside, footer, .social, .toTop {
-        display: none;
-    }
-}
 

@@ -1,0 +1,39 @@
+/* Su quello stava diventando abbastanza compl,icato lavorare, perchè troppo ciaffoso
+per questo lo faccio anche qua :) 
+
+giuro la prossima volta sarò meno ciaffosa*/
+
+div.foto{
+    text-align: center;
+    background-color: white;
+    margin: 25px;  
+    
+    font-family: 'Open Sans', sans-serif; 
+    display: inline-block;
+
+}
+
+  div.box {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 16px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  .fotografie{
+      display: flex;
+      flex-direction: row;
+  }
