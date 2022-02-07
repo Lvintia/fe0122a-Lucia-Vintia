@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
 
 /* IMPOSTAZIONI GENERALI */
 html            {font-size: 62,5%;
    
 }
 body {   
-    font-family: Poppins, 'Helvetica Neue', sans-serif;
-    font-size: 1.4rem;
+    font-family: 'Fira Sans', sans-serif;     font-size: 1.4rem;
     line-height: 1.5;
    
 }
@@ -19,13 +19,14 @@ h1,h2,h3{
 h1{
     font-size: 180%;
 }
+h2{
+    font-size: 40px;
+}
 p{
   color: #393d41 ;
   font-size: 15px;   
 }
-h2{
-    font-size: 40px;
-}
+
 h3{
     font-size: 30px;
 }
@@ -263,6 +264,8 @@ table {
 }
 .forme{
     height: 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -355,25 +358,15 @@ label {
 }
 .contacts{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     margin: 60px;
 }
 .forme{
     margin-left: auto ;
     margin-right: auto;
-
 }
 
-.contacts{
-    text-align: center;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-}
  /*°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°TABLET°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°*/
 
 
