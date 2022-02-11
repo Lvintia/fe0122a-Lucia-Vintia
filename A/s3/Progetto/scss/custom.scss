@@ -1,0 +1,24 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$body-bg: black;
+
+.carousel{
+    height: 50px;
+    width: auto;
+}
+
+
+h1{
+    text-align: center
+}
+body{
+    background-color: $body-bg;
+}
+footer{
+    border: 50px;
+}
+.carosello{
+    border: 390px;
+}
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
