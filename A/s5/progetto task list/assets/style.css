@@ -1,0 +1,55 @@
+
+body {
+    background: linear-gradient(0deg, #1ed7b5, #fc97ed, #3c8bed);
+    background-size: 600% 600%;
+    text-align: center;
+    -webkit-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:44% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:44% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:44% 0%}
+    50%{background-position:80% 60%}
+    100%{background-position:44% 0%}
+}
+ul {
+    list-style-type: circle;
+    list-style-type: none;
+    text-align: center;
+   
+    font-size: 25px;
+  }
+  li {
+    margin: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.064);
+   
+    border-bottom: 1px rgb(255, 255, 255) solid;
+
+  }
+
+  li:hover{
+      
+      color: black;
+      border: 1px black solid;
+      text-decoration: line-through;
+      font-family:cursive;
+  }
+
+  .ciao{
+      padding: 90px; 
+      width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #task_txt{
+      background-color: #ffffff9a;
+      border-color: rgba(118, 118, 118, 0.351);
+  }
